@@ -26,4 +26,4 @@ jobs:
       - name: Run fetch cat picture script
         env:
           CATS_API_KEY: ${{ secrets.CAT_API_KEY }}
-        run: python fetch_cat_picture.py
+        run: python ./fetch_cat_picture.py
